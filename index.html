@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: #EFD6AC;">
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #C44900;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fa-sharp fa-solid fa-book-open-reader" style="color: #04151F;"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">
+                            <i class="fa-solid fa-house" style="color: #04151F;">Home</i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">
+                            <i class="fa-solid fa-people-group" style="color: #04151F;">About</i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./books.html">
+                            <i class="fa-solid fa-book" style="color: #04151F;">Books</i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="container-fluid float-xl-right">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search books"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-secondary" type="submit" style="outline-color: #04151F;">
+                                    <i class="fa-solid fa-magnifying-glass" style="color: #04151F;"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CAROUSEL START -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="height: 90vh;" src="./c1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #EFD6AC;">"That's the thing about books, they let you travel without moving your
+                        feet."</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="height: 90vh;" src="./c2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #EFD6AC;">"Portable magic...."</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img style="height: 90vh;" src="./c3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: #EFD6AC;">"You're only one book away from a good mood."</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- CAROUSEL END -->
+
+    <!-- NEWSLETTER -->
+    <section class="home-newsletter" style="height: 50vh; background-color: #183A37;">
+        <div class="container" data-aos="fade-down">
+            <div class="row align-items-center">
+                <div class="col-sm-12">
+                    <div class="single">
+                        <h1 style="text-align: center; color: #EFD6AC; font-family: 'Lilita One', cursive;">"BETTER BE A BOOK"</h1>
+                        <p style="text-align: center; color: #EFD6AC; font-family: 'Lilita One', cursive;">The team of "Better be a book" would love to send you
+                            recommendations and
+                            daily bookish blogs to your inbox! Subscribe to our newsletter to receive updates.</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="input-group my-3">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn">
+                                <button class="btn" type="submit"
+                                    style="color: #EFD6AC; background-color: #C44900;">Subscribe</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- NEWSLETTER -->
+
+    <!-- FOOTER START-->
+    <footer style="background-color: #432534;">
+        <div class="container text-center" style="color: #EFD6AC; font-family: 'Lilita One', cursive;">
+            <h4>Help Build Our Community</h4>
+            <div class="row">
+                <div class="col g-3"><a href="#"><i class="fa-brands fa-facebook fa-2x" style="color: #EFD6AC;"></i></a>
+                </div>
+                <div class="col g-3"><a href="#"><i class="fa-brands fa-square-instagram fa-2x"
+                            style="color: #EFD6AC;"></i></a></div>
+                <div class="col g-3"><a href="#"><i class="fa-brands fa-twitter fa-2x" style="color: #EFD6AC;"></i></a>
+                </div>
+                <div class="col g-3"><a href="#"><i class="fa-brands fa-goodreads-g fa-2x"
+                            style="color: #EFD6AC;"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+</body>
+
+</html>
